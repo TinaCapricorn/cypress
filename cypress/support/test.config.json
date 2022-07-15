@@ -1,0 +1,23 @@
+{
+    "testDataFile": "./testData.json",
+    "selectors": {
+        "addBook": {
+            "addBookButtonText": "Add new",
+            "submitButtonText": "Submit",
+            "formTitle": ".modal-title",
+            "inputTitle": "#title",
+            "inputDescription": "#description",
+            "inputAuthors": "#authors",
+            "inputFavotite": "#favorite"
+        },
+        "bookPage": {
+            "bookTitle": "h2"
+        },
+        "bookList": {
+            "addFavButton": ".card-footer button",
+            "delFavButton": ".card-footer button",
+            "bookItemBlock": ".mt-3"
+        },
+        "favButton": ".ml-4.nav-link h4"
+    }
+}

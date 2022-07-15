@@ -1,0 +1,21 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test_desktop": "npx cypress open -C cypress.config_desktop.js",
+    "test_mobile": "npx cypress open -C cypress.config_mobile.js",
+    "test_chrome_headed": "npx cypress run --headed -C cypress.config_desktop.js  --browser chrome",
+    "test_electron_headed": "npx cypress run --headed -C cypress.config_desktop.js  --browser electron",
+    "test_chrome_headless": "npx cypress run --headless -C cypress.config_desktop.js  --browser chrome",
+    "test_electron_headless": "npx cypress run --headless -C cypress.config_desktop.js  --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.3.0",
+    "randomstring": "^1.2.2"
+  }
+}

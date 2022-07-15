@@ -1,0 +1,6 @@
+{
+    "loginButtonText": "Log in",
+    "submitButtonText": "Submit",
+    "loginInput": "#mail",
+    "passInput": "#pass"
+}
